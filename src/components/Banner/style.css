@@ -1,0 +1,51 @@
+.banner_inner_item {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.banner_inner_item .content {
+  width: fit-content;
+}
+
+.banner_main {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner_main .img_con {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+
+  transform: translate(-50%, -50%);
+}
+
+.banner_main .img_con img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ggg {
+  height: 100vh;
+}
+
+.content h2 {
+  position: relative;
+  z-index: 99999;
+  color: #000;
+  font-size: 50px;
+  text-align: center;
+}
+
+.content h2 {
+  mix-blend-mode: #fff;
+}
